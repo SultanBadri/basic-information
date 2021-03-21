@@ -10,7 +10,7 @@ http
       if (err) {
         res.writeHead(404, { "Content-Type": "text/html" });
         return res.end(
-          `<h1 font-family: sans-serif;>Error: 404</h1><p font-family: sans-serif;>The page you are looking for doesn't exist.</p>`
+          `<h1 style="font-family: sans-serif;">Error: 404</h1><p style="font-family: sans-serif;">The page you are looking for doesn't exist.</p>`
         );
       }
       res.writeHead(200, { "Content-Type": "text/html" });
